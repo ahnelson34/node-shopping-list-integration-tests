@@ -79,7 +79,7 @@ describe("Recipes", function() {
         })
         
         .then(function(res) {
-          expect(res).to.have.status(200);
+          expect(res).to.have.status(204);
           expect(res).to.be.json;
         })
     );
