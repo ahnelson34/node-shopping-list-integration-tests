@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: fyNMuYtW7xl5iR1STa885zFxk+MlLSLqaWfUiuLU1hn1p5EAd6AXLpiFXmej+JIERPc7/yNvfQYFIsRx+3eHRdbTbD7+hUuligedvH2gY987+3EL3IXHdQDniUVATwT1mjYQryWD7lNiFPETpSqdJfAmK3CPLRcuThvcnRwzVff+ez+AbOgg1i4y2UzHVk0MWh/FcDNJ5nslqjSrK9iOVAAI1EwGf0dc4H6u3VUJPGz3PlAUCHtouMonxBUg5En3buux9R5kgYV9/2nIbRX3z4Tfn90P+d8JSjXor9S6w8qrFv6wbxlcukEq6GtPUGI9xTmyF3sZqdS4PpI+Vy6cus9xObcqcRvX8LdKC+fNS7fm9sqlIACz4mRX3pkLNMjSoFSbA4lOmxe6T58HNFp530wLIV0phQE4TUGNibynD+dqUq0VlWVaKgz/FAa05aNtQVWcejh4lFQZgtVyIla/ILkNlTFOmlr9u7PpYt7fRqp9NmBfy+8j29GMLI5sLiTF5pY/3jTBXFogVesQxpXCAInZKFhD8ebqlI9SHZKchhDR1neDLO/DbKANaud5lZIEhaBYXjuIh/MA+Ws480jlDeZi72yAt2dHvE5k0dqbznAj+4WX7V0cAPgx2lkayHuvHukbLtn9mMGx5u4fXdLag3QF4V9QaHu8M8ZhkGiDrVk=
+  app: cryptic-peak-51052
+  on:
+    repo: ahnelson34/node-shopping-list-integration-tests

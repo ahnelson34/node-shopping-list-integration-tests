@@ -75,7 +75,7 @@ describe("Recipes", function() {
           return chai
             .request(app)
             .put(`/recipes/${updateData.id}`)
-            .send(updateData);
+            .send(updateData)
         })
         
         .then(function(res) {
